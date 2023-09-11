@@ -5,20 +5,20 @@
 }
 
 body {
-    background-image: linear-gradient(to left,#3296ED, #49738B 90%, #000000);  
+    background-image: linear-gradient(to left,#454545, #1F1F1F 90%, #000000ee);  
 }
 
 main {
     border-radius: 20px;
     background-color: #F3F3F3;
-    box-shadow: 5px 5px 15px #49738b94;
+    box-shadow: 5px 5px 15px #1F1F1F;
     width: 600px;
     padding: 10px;
     margin: auto;
 }
 
 h1 {
-    background-color: #0a06e9;
+    background-color: #454545;
     color: white;
     border-radius: 5px;
     text-align: center;
