@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Carregamento de imagens flexíveis</h1>
+    <p>Conforme pede o desafio, a imagem será ajustada de acordo com o tamanha da tela, sem a necessidade de utilizar javascript</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/imagem-m.png" type="image/png">
+        <img src="img/imagem-g.png" alt="">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="A imagem flexível funciona">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="guanacast-33.mp3" type="audio/mpeg">
+        <p>Seu navegador não suporta áudio <a href="happy-mistake.mp3" download="happy-mistake.mp3" type="audio/mpeg"></a></p>
+    </audio>
+    <h1>Reproduzindo Vídeos</h1>
+    <p>Vamos aprender a reproduzir videos do Youtube em nosso site.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cAgkwPWE4hU" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <P>Video com VIMEO</P>
+    <iframe src="https://player.vimeo.com/video/278845039?h=db3f60482a&autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
