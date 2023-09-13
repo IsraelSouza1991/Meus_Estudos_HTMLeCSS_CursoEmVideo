@@ -5,13 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes Externas</title>
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
+        @font-face {
+            font-family: 'angel';
+            src: url('fonts/Angel wish.otf') format('embedded-op'), url('fonts/Angel wish.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal
         }
+
+        main {
+            background-color: black;
+            border-radius: 20px;
+            box-shadow: 5px 5px 15px #1F1F1F;
+            width: 600px;
+            padding: 10px;
+            margin: auto;
+        }
+
+        h1 {
+            font-family: 'angel', Times, serif;
+            font-size: 3em;
+            font-weight: bold;
+            font-style: normal;
+            color: rgb(250, 245, 245);
+            text-align: center;
+        }
+
+        body {
+            font-family: 'angel', Helvetica, sans-serif;
+            font-size: 2.7em;
+            font-style: italic;
+            background-color: black;
+            color: red;
+            text-align: justify;
+            background-image: linear-gradient(to left,#454545, #1F1F1F 90%, #000000ee); 
+        }
+
     </style>
 </head>
 <body>
-    <h1>Título</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore nostrum placeat cum, porro nobis, distinctio facilis aspernatur dolores in fugiat cumque ullam temporibus voluptatum ratione possimus architecto provident eveniet!</p>
+    <main>
+        <h1>Death Note</h1>
+        <li>Stefane</li>
+        <li>Tafnes</li>
+        <li>Juliana</li>
+        <li>João Marcos</li>
+        <li>Israel</li>
+    </main>
 </body>
 </html>
