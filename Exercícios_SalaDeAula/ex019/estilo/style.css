@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    color: brown;
+}
+
+h1#secundario{
+    text-align: center;
+    text-decoration: underline overline blue;
+
+}
+h2{
+    color:blue
+}
+
+p{
+    color: chocolate;
+}
