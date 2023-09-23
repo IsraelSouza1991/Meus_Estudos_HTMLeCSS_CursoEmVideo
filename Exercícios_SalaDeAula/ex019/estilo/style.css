@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body{
+body {
     background-color: bisque;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -9,15 +9,22 @@ h1{
     color: brown;
 }
 
-h1#secundario{
+h1#secundario {
     text-align: center;
     text-decoration: underline overline blue;
 
 }
-h2{
+h2 {
     color:blue
 }
 
-p{
+p {
     color: chocolate;
+}
+
+.basico {
+    color: blueviolet;
+}
+.destaque {
+    background-color: aquamarine;
 }
