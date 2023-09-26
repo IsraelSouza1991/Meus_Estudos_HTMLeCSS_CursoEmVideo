@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        
+        a::after{
+            content: ' [Link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Personalizando links </h1>
+    <ul>
+        <li><a href="https://app.pandadoc.com/a/#/dashboard" target="_blank">PandaDoc</a></li>
+        <li><a href="https://sgsmain.lightning.force.com/lightning/page/home" target="_blank">SalesForce</a></li>
+        <li><a href="https://boss.sgs.net/OA_HTML/RF.jsp?function_id=3842&resp_id=79913&resp_appl_id=660&security_group_id=0&lang_code=US&oas=9-OmqE3av-oKjvfWj3HKrw..&params=QaVbVy2KoyCVyUIjkvCHhc1xjm460Jt9tXxpv.33YFo" target="_blank">Boss</a></li>
+    </ul>
 </body>
 </html>
