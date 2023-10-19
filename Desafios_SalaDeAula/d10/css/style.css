@@ -49,7 +49,12 @@ nav {
     background: var(--cor4);
 }
 
-main {background: white;}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin:auto;
+    background: white;
+}
 
 main h1 {
     color: var(--cor5);
@@ -58,6 +63,17 @@ main h1 {
 
 main h2 {
     font-family: var(--fonte-android);
+}
+
+main img {
+    width: 100%;
+
+}
+
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 footer {
